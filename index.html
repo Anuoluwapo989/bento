@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-header__identity">
+            <img src="avatar.png" alt="Anuoluwapo" class="site-header__avatar">
+            <div>
+                <p class="site-header__name">Anuoluwapo Abosede</p>
+                <p class="site-header__title">Web Designer</p>
+            </div>
+        </div>
+    </header>
+
+    <hr class="site-divider">
+
+    <div class="bento-wrapper">
+        <div class="bento-grid">
+
+            <div class="card card--time">
+                <div class="card__header">
+                    <span class="card__label">Time</span>
+                    <span class="card__label--muted">St. John's</span>
+                </div>
+                <div class="clock-container">
+                    <canvas id="clock" width="200" height="200"></canvas>
+                </div>
+            </div>
+
+            <div class="card card--mode">
+                <div class="card__header">
+                    <span class="card__label">Mode</span>
+                    <span class="card__status-dot"></span>
+                </div>
+                <p class="card__body">Available for freelance design projects. Hit me up for a collab.</p>
+                <a href="mailto:anuoluwapoa989@gmail.com" class="card__button">
+                    Contact Me <span>↗</span>
+                </a>
+            </div>
+
+            <div class="card card--about">
+                <div class="card__header">
+                    <span class="card__label">About</span>
+                    <span class="card__label--muted">Anuoluwapo Abosede</span>
+                </div>
+                <p class="card__body">I'm Anuoluwapo Abosede, a creative web designer based in St. John's, NL. With a
+                    keen eye
+                    for aesthetics and a passion for building clean digital experiences, I strive to create work that
+                    leaves a lasting impact. Let's collaborate and bring your vision to life.</p>
+            </div>
+
+            <div class="card card--experience">
+                <div class="card__header">
+                    <span class="card__label">Experience & Education</span>
+                </div>
+                <div class="experience-list">
+
+                    <div class="experience-item">
+                        <span class="experience-item__dates">2023 — Now</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">Freelance Web Designer</p>
+                            <p class="experience-item__sub">Self-employed, building clean digital experiences for
+                                clients.</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="experience-item__dates">2022 — 2023</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">Your Previous Role</p>
+                            <p class="experience-item__sub">Company or institution name</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="experience-item__dates">2020 — 2022</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">Another Role</p>
+                            <p class="experience-item__sub">Company or institution name</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card--projects">
+                <div class="card__header">
+                    <span class="card__label">Projects</span>
+                </div>
+                <div class="project-list">
+
+                    <a href="#" class="project-item">
+                        <img src="project1.jpg" alt="Fusion Pro Presentation" class="project-item__thumb">
+                        <div class="project-item__details">
+                            <p class="project-item__title">Fusion Pro Presentation</p>
+                            <p class="project-item__sub">I've come up with something truly unique.</p>
+                        </div>
+                        <span class="project-item__arrow">↗</span>
+                    </a>
+
+                    <a href="#" class="project-item">
+                        <img src="project2.jpg" alt="New Publication" class="project-item__thumb">
+                        <div class="project-item__details">
+                            <p class="project-item__title">New Publication</p>
+                            <p class="project-item__sub">Read out my new article on the impact of AI.</p>
+                        </div>
+                        <span class="project-item__arrow">↗</span>
+                    </a>
+
+                    <a href="#" class="project-item">
+                        <img src="project3.jpg" alt="Swoosh Playground" class="project-item__thumb">
+                        <div class="project-item__details">
+                            <p class="project-item__title">Swoosh Playground</p>
+                            <p class="project-item__sub">Experimental project for Nike Shoe Launch.</p>
+                        </div>
+                        <span class="project-item__arrow">↗</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="card card--contact">
+                <div class="card__header">
+                    <span class="card__label">Get in touch</span>
+                </div>
+                <div class="contact-icons">
+
+                    <a href="https://linkedin.com/in/anuoluwapo-abosede" class="contact-icon" target="_blank"
+                        rel="noopener">
+                        <img src="linkedin.svg" width="40%" alt="LinkedIn"></a>
+                    <a href="https://instagram.com/abosede7791" class="contact-icon" target="_blank" rel="noopener"><img
+                            src="instagram.svg" width="45%" alt="Instagram"></a>
+                    <a href="mailto:anuoluwapoa989@gmail.com" class="contact-icon" target="_blank"><img src="email.svg"
+                            width="40%" alt="Email"></a>
+                </div>
+            </div>
+
+
+            <div class="card card--latest-work">
+                <div class="card__header">
+                    <span class="card__label">Latest Work</span>
+                    <a href="https://camera-obscura-alpha.vercel.app/"
+                        class="card__label card__header-link">camera-obscura ↗</a>
+                </div>
+                <div class="latest-work__image-container">
+                    <img src="mockup.avif" alt="Latest Work" class="latest-work__image">
+                </div>
+            </div>
+
+            <div class="card card--personal-projects">
+                <div class="card__header">
+                    <span class="card__label">Personal Projects</span>
+                </div>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <span class="experience-item__dates">Since 2024</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">Project Name</p>
+                            <p class="experience-item__sub">What you built or contributed to.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <span class="experience-item__dates">Since 2023</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">Another Project</p>
+                            <p class="experience-item__sub">What you built or contributed to.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <span class="experience-item__dates">Since 2022</span>
+                        <div class="experience-item__details">
+                            <p class="experience-item__title">A Third Project</p>
+                            <p class="experience-item__sub">What you built or contributed to.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card--years">
+                <span class="card__label">Years of Experience</span>
+                <span class="card__big-number">2</span>
+            </div>
+
+            <div class="card card--cv">
+                <span class="card__label">CV</span>
+                <div>
+                    <a class="card__button">View<span>↗</span></a>
+                    <a class="card__button">Download CV<span>↗</span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="site-footer">
+
+    <script>
+        const canvas = document.getElementById('clock');
+        const ctx = canvas.getContext('2d');
+        const size = canvas.width;
+        const cx = size / 2;
+        const cy = size / 2;
+        const radius = size / 2 - 10;
+
+        function drawClock() {
+            ctx.clearRect(0, 0, size, size);
+
+            const now = new Date();
+            const seconds = now.getSeconds();
+            const minutes = now.getMinutes();
+            const hours = now.getHours() % 12;
+
+            // ── Tick marks ──
+            for (let i = 0; i < 60; i++) {
+                const angle = (i * Math.PI * 2) / 60;
+                const isHour = i % 5 === 0;
+                const outerR = radius;
+                const innerR = isHour ? radius - 10 : radius - 5;
+
+                ctx.beginPath();
+                ctx.moveTo(
+                    cx + Math.sin(angle) * outerR,
+                    cy - Math.cos(angle) * outerR
+                );
+                ctx.lineTo(
+                    cx + Math.sin(angle) * innerR,
+                    cy - Math.cos(angle) * innerR
+                );
+                ctx.strokeStyle = 'rgba(255,255,255,0.4)';
+                ctx.lineWidth = isHour ? 1.5 : 0.8;
+                ctx.stroke();
+            }
+
+            // ── Hour hand ──
+            const hourAngle = ((hours + minutes / 60) * Math.PI * 2) / 12;
+            drawHand(hourAngle, radius * 0.5, 2);
+
+            // ── Minute hand ──
+            const minAngle = ((minutes + seconds / 60) * Math.PI * 2) / 60;
+            drawHand(minAngle, radius * 0.75, 1.5);
+
+            // ── Second hand ──
+            const secAngle = (seconds * Math.PI * 2) / 60;
+            drawHand(secAngle, radius * 0.82, 1, true);
+
+            // ── Center dot ──
+            ctx.beginPath();
+            ctx.arc(cx, cy, 3, 0, Math.PI * 2);
+            ctx.fillStyle = '#ffffff';
+            ctx.fill();
+        }
+
+        function drawHand(angle, length, width, isSecond = false) {
+            // Small tail on the opposite side
+            const tailLength = length * 0.2;
+
+            ctx.beginPath();
+            ctx.moveTo(
+                cx - Math.sin(angle) * tailLength,
+                cy + Math.cos(angle) * tailLength
+            );
+            ctx.lineTo(
+                cx + Math.sin(angle) * length,
+                cy - Math.cos(angle) * length
+            );
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = width;
+            ctx.lineCap = 'round';
+            ctx.stroke();
+        }
+
+        drawClock();
+        setInterval(drawClock, 1000);
+    </script>
+
+
+</body>
