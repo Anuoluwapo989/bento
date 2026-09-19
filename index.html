@@ -7,6 +7,11 @@
     <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -40,10 +45,13 @@
                     <span class="card__label">Mode</span>
                     <span class="card__status-dot"></span>
                 </div>
+
                 <p class="card__body">Available for freelance design projects. Hit me up for a collab.</p>
                 <a href="mailto:anuoluwapoa989@gmail.com" class="card__button">
                     Contact Me <span>↗</span>
                 </a>
+
+
             </div>
 
             <div class="card card--about">
@@ -51,7 +59,8 @@
                     <span class="card__label">About</span>
                     <span class="card__label--muted">Anuoluwapo Abosede</span>
                 </div>
-                <p class="card__body">I'm Anuoluwapo Abosede, a creative web developer and Computer Science student based in St. John's, NL. With a
+                <p class="card__body">I'm Anuoluwapo Abosede, a creative web developer and Computer Science student
+                    based in St. John's, NL. With a
                     keen eye
                     for aesthetics and a passion for building clean digital experiences, I strive to create work that
                     leaves a lasting impact. Let's collaborate and bring your vision to life.</p>
@@ -98,23 +107,24 @@
                 <div class="project-list">
 
                     <a href="https://camera-obscura-alpha.vercel.app/" class="project-item">
-                        <img src="image.png" alt="Fusion Pro Presentation" class="project-item__thumb">
+                        <img src="camera.png" alt="Fusion Pro Presentation" class="project-item__thumb">
                         <div class="project-item__details">
                             <p class="project-item__title">Camera Obscura</p>
-                            <p class="project-item__sub">Interactive Lighting Simulator for Photographers. Created with WebGL.</p>
+                            <p class="project-item__sub">Interactive Lighting Simulator for Photographers. Created with
+                                WebGL.</p>
                         </div>
                         <span class="project-item__arrow">↗</span>
                     </a>
 
                     <a href="#" class="project-item">
-                        <img src="project2.jpg" alt="New Publication" class="project-item__thumb">
+                        <img src="bento.png" alt="New Publication" class="project-item__thumb">
                         <div class="project-item__details">
                             <p class="project-item__title">Bento Grid Portfolio</p>
                             <p class="project-item__sub">The site you are currently looking at.</p>
                         </div>
                         <span class="project-item__arrow">↗</span>
                     </a>
-<!-- 
+                    <!-- 
                     <a href="#" class="project-item">
                         <img src="project3.jpg" alt="Swoosh Playground" class="project-item__thumb">
                         <div class="project-item__details">
@@ -161,13 +171,14 @@
                 </div>
                 <div class="experience-list">
                     <div class="experience-item">
-                        <span class="experience-item__dates">Since 2024</span>
+                        <span class="experience-item__dates">Since 2026</span>
                         <div class="experience-item__details">
-                            <p class="experience-item__title">Project Name</p>
-                            <p class="experience-item__sub">What you built or contributed to.</p>
+                            <p class="experience-item__title">Calculator</p>
+                            <p class="experience-item__sub">A Fully Functional Calculator Web App made with HTML, CSS
+                                and Typescript.</p>
                         </div>
                     </div>
-                    <div class="experience-item">
+                    <!-- <div class="experience-item">
                         <span class="experience-item__dates">Since 2023</span>
                         <div class="experience-item__details">
                             <p class="experience-item__title">Another Project</p>
@@ -180,7 +191,7 @@
                             <p class="experience-item__title">A Third Project</p>
                             <p class="experience-item__sub">What you built or contributed to.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -190,10 +201,13 @@
             </div>
 
             <div class="card card--cv">
-                <span class="card__label">CV</span>
-                <div>
+                <div class="card__header">
+                    <span class="card__label">CV</span>
+                </div>
+
+                <div class="card__cv-items">
                     <a class="card__button">View<span>↗</span></a>
-                    <a class="card__button">Download CV<span>↗</span></a>
+                    <a class="card__button">Download<span>↓</span></a>
                 </div>
             </div>
 
@@ -201,6 +215,7 @@
     </div>
 
     <hr class="site-footer">
+    <div class="footer-text">© 2026 Anu Abosede</div>
 
     <script>
         const canvas = document.getElementById('clock');
