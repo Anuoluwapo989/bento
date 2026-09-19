@@ -159,6 +159,7 @@ p {
 
 .project-item__sub {
     font-size: 11px;
+    line-height: 1.1;
     color: var(--text-muted);
     text-transform: none;
     letter-spacing: 0.02em;
@@ -177,7 +178,7 @@ p {
 .project-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     overflow-y: auto;
     flex: 1;
     min-height: 0;
@@ -233,7 +234,7 @@ p {
 .experience-item {
     display: grid;
     grid-template-columns: 90px 1fr;
-    gap: 12px;
+    gap: 13px;
     align-items: start;
 }
 
@@ -247,7 +248,7 @@ p {
 .experience-item__title {
     font-size: 12px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 17px;
     color: var(--text-primary);
     margin-bottom: 4px;
 }
@@ -255,7 +256,7 @@ p {
 .experience-item__sub {
     font-size: 11px;
     color: var(--text-muted);
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .card--projects {
@@ -289,10 +290,12 @@ p {
 .project-item__title {
     font-size: 12px;
     font-weight: 400;
+    line-height: 17px;
     color: var(--text-primary);
     text-transform: none;
     letter-spacing: 0.02em;
     display: block;
+    margin-bottom: 4px;
 
 }
 
@@ -491,6 +494,7 @@ p {
 .contact-icon:hover {
     background-color: #333333;
     border-color: #666666;
+    color: var(--text-primary);
 }
 
 .card__header-link {
@@ -536,10 +540,12 @@ p {
 }
 
 .footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 12px;
     font-weight: 500;
     color: #555555;
     max-width: 1140px;
     margin: 0 auto;
-    
 }
