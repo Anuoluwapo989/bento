@@ -332,6 +332,7 @@ p {
     grid-row: span 2;
     grid-column: span 2;
     /* height: 100%; */
+    isolation: isolate;
 }
 
 .card--personal-projects {
@@ -513,6 +514,17 @@ p {
     overflow: hidden;
     min-height: 0;
     height: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.latest-work__image-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, var(--card-bg) 0%, transparent 45%);
+    pointer-events: none;
+    z-index: 1;
 }
 
 .latest-work__image {
@@ -520,6 +532,14 @@ p {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    position: relative;
+    z-index: 0;
+}
+
+.card--latest-work:hover .latest-work__image {
+    filter: grayscale(0%);
 }
 
 .card__cv-items {
